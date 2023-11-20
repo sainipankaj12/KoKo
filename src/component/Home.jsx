@@ -6,7 +6,7 @@ function Home() {
     <div >
     <div className='cotainer-fluid bg-light pb-5 '>
         <Card className=" text-white border-0 " >
-      <Card.Img  src="public/img/shoppy.JPG " alt="" />
+      <Card.Img  src="../img/shoppy.JPG " name="img" alt="" />
       <Card.ImgOverlay className='d-flex flex-column justify-content-center'>
         <Card.Title className='display-3 fw-bolder '>NEW SEASON ARRIVALS</Card.Title>
         <Card.Text className='display-6 fs-2'>
