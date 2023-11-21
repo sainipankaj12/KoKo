@@ -11,7 +11,7 @@ function About() {
         
           <Card className=" text-white">
             <Card.Img
-              src="../img/about3.JPG "
+              src="src/assets/about3.JPG "
               name = "imgs"
               alt="about.jpg"
               height="550px"
