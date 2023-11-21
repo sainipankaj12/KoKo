@@ -1,32 +1,12 @@
 import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
+
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function About() {
   return (
-    <Container>
+    <div>
       <Row className="d-grid">
-        <Col>
-        
-          <Card className=" text-white">
-            <Card.Img
-              src="./Img/shoppy.PNG "
-              name = "imgs"
-              alt="about.jpg"
-              height="550px"
-            />
-             <Card.ImgOverlay>
-              <Card.Title className=" mt-5 m-3 display-4 "> About Us</Card.Title>
-              <Card.Text className=" m-3">
-                Learn how,
-                 why and when the project started
-                and how you can be a part of it.
-              </Card.Text>
-              </Card.ImgOverlay>
-          </Card>
-        </Col>
-
         <Col className="bg-primary rounded">
         <Card.Title className=" m-5 display-6 text-black "> Team</Card.Title>
         <Card.Text className=" m-5 ">
@@ -43,7 +23,7 @@ function About() {
   </Card.Text>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }
 
