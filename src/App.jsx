@@ -18,7 +18,7 @@ function App() {
       <Navbs />
     
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/KoKo/" element={<Home />} />
 
         <Route exact path="/Product" element={<Product />} />
         <Route exact path="/Product/:id" element={<SingleProduct />} />

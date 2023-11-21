@@ -27,7 +27,7 @@ function Navbs() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/KoKo/">
                 
                 Home
               </Nav.Link>
