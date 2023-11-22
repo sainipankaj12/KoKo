@@ -165,7 +165,7 @@ function Cart() {
                                 </div>
                               </td>
                               <td className="text-right">
-                                ₹ {data.quantity * data.price}
+                                $ {data.quantity * data.price}
                               </td>
                             </tr>
                           );
@@ -182,7 +182,7 @@ function Cart() {
                           <th className="text-right">
                             Total Price<span className="ml-2 mr-2">:</span>
                             <span className="text-danger">
-                              ₹ {totalPrice.toString().substring(0, 6)}
+                              $ {totalPrice.toString().substring(0, 6)}
                             </span>
                           </th>
                         </tr>

@@ -23,22 +23,22 @@ function Navbs() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="mx-auto my-2 my-lg-0"
+              className="mx-auto  my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link as={Link} to="/KoKo/">
+              <Nav.Link as={Link} to="/KoKo/" className="text-primary fs-5 ">
                 
                 Home
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/Product">
+              <Nav.Link as={Link} to="/Product"  className="text-primary fs-5 ">
                 Product
               </Nav.Link>
-              <Nav.Link as={Link} to="About">
+              <Nav.Link as={Link} to="About"  className="text-primary fs-5">
                 About
               </Nav.Link>
-              <Nav.Link as={Link} to="Contact">
+              <Nav.Link as={Link} to="Contact"  className="text-primary fs-5">
                 Contact
               </Nav.Link>
             </Nav>

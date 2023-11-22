@@ -50,33 +50,37 @@ function Product() {
   const ShowProducts = () => {
     return (
       <>
-        <div className=" buttons d-flex  justify-content-center mb-5 pb-5">
+        <div className=" buttons d-flex  justify-content-center mb-5 pb-5 ">
           <Button
-            variant="outline-success me-2 active "
+          className="btn-sm"
+            variant="outline-success me-2  "
             onClick={() => setFilter(data)}
           >
             All
           </Button>
           <Button
-            variant="outline-success me-2 "
+           className="btn-sm "
+            variant="outline-success me-1 me-md-2 "
             onClick={() => filterProduct("men's clothing")}
           >
             Men
           </Button>
-          <Button
-            variant="outline-success me-2"
+          <Button className="btn-sm "
+            variant="outline-success me-1 me-md-2"
             onClick={() => filterProduct("women's clothing")}
           >
             Women
           </Button>
           <Button
+          className="btn-sm"
             variant="outline-success me-2"
             onClick={() => filterProduct("jewelery")}
           >
             Jewelery
           </Button>
           <Button
-            variant="outline-success me-2"
+           className="btn-sm "
+            variant="outline-success me-2 "
             onClick={() => filterProduct("electronics")}
           >
             Electronics
@@ -102,10 +106,10 @@ function Product() {
                         height="250PX"
                       />
                       <Card.Body>
-                        <Card.Title className="mb-0">
+                        <Card.Title className="mb-0 text-primary">
                           {products.title.substring(0, 12)} ...
                         </Card.Title>
-                        <Card.Text className=" lead fw-bold">
+                        <Card.Text className="text-danger lead fw-bold">
                           ${products.price}
                         </Card.Text>
                         <Button variant="outline-success me-2">Buy</Button>
@@ -126,8 +130,8 @@ function Product() {
     <div>
       <div className=" container-fluid bg-light ">
         <div className="row ">
-          <div className=" col-12 mb-5">
-            <h1 className="display-6 fw-bolder text-center">LATEST PRODUCTS</h1>
+          <div className=" col-12 m-3">
+            <h1 className="display-6 fw-bolder  text-danger text-center">LATEST PRODUCTS</h1>
             <hr />
           </div>
         </div>

@@ -84,13 +84,13 @@ const dispatch = useDispatch();
                   alt={item.title}
                   rounded
                   className=" "
-                  height="400px" 
+                  height="350px" 
                   key={item.id}
-                  width="400px"
+                  width="350px"
                  
                 />
               </div>
-              <div className="col-sm-6  align-item-center " >
+              <div className="col-md-6  align-item-center " >
                <div className="   "  >
                <Card.Title className="text-uppercase text-black-50" >
                           {item.category}
@@ -99,10 +99,10 @@ const dispatch = useDispatch();
                           {item.title}
                         </Card.Title>
                         <hr/>
-                        <Card.Text className="  lead display-5 fw-bolder">
+                        <Card.Text className=" text-danger  lead display-5 fw-bolder">
                          Price  ${item.price}
                         </Card.Text>
-                        <Card.Text className=" fw-bold ">
+                        <Card.Text className=" text-warning fw-bold ">
                           Ratinng {item.rating && item.rating.rate}
                           < AiOutlineStar />
                         </Card.Text>
