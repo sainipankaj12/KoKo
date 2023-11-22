@@ -76,17 +76,17 @@ const dispatch = useDispatch();
     return (
       <>
         <div>
-          <div className=" container d-md-flex justify-content-center align-item-center   p-5">
+          <div className=" container d-md-flex justify-content-center align-item-center   p-3">
            
-              <div className="col-md-6  " >
+              <div className="col-md-6 pt-5 pb-5 " >
                 <Image
                   src={item.image}
                   alt={item.title}
                   rounded
                   className=" "
-                  height="350px" 
+                  height="300px" 
                   key={item.id}
-                  width="350px"
+                  width="300px"
                  
                 />
               </div>

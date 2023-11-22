@@ -19,6 +19,7 @@
 }
 .card-body {
     padding: 30px;
+    
 }
 .btn-primary {
     border-color: #5a8dee !important;
@@ -47,13 +48,13 @@
 }
 
 .qty-input-box {
-    max-width: 70px;
+    max-width: 30px;
     padding: 0px 5px;
-    min-height: 40px;
+    min-height: 30px;
     border-radius: 4px;
     text-align: center;
     display: inline-block;
-    margin: 0px 5px;
+    /* margin: 0px 3px; */
     color: #475F7B;
     background-color: #FFF;
     border: 1px solid #DFE3E7;
@@ -69,8 +70,8 @@
 }
 
 .prdct-qty-btn {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 4px;
     background-color: #5a8dee2e;
@@ -85,8 +86,8 @@
 }
 
 .product-img img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
 }
 .card-header-flex{
@@ -95,8 +96,8 @@
     justify-content: space-between;
 }
 .prdct-delete {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: none;
     border-radius: 4px;
     background-color: #fde6e7;

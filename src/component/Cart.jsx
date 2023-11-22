@@ -67,7 +67,7 @@ function Cart() {
             <div className="card">
               <div className="card-header bg-dark p-3">
                 <div className=" card-header d-flex justify-content-between">
-                  <h5 className="text-white m-0 ">
+                  <h5 className="text-white  ">
                     My Cart {cart.length > 0 ? `(${cart.length})` : ""}
                   </h5>
 
@@ -99,14 +99,14 @@ function Cart() {
                     <table className="table cart-table mb-0 table-responsive-sm">
                       <thead>
                         <tr>
-                          <th>Action</th>
-                          <th>Product</th>
+                          <th>Actn</th>
+                          <th>Prdt</th>
                           <th>Name</th>
                           <th>Price</th>
                           <th>Qty</th>
                           <th className="text-right">
                             <span id="amount" className="amount">
-                              Total Amount
+                              Amnt
                             </span>
                           </th>
                         </tr>
@@ -133,39 +133,46 @@ function Cart() {
                               <td>
                                 <div className="product-name">
                                   <p>
-                                    {data.title.toString().substring(0, 12)}
+                                    {data.title.toString().substring(0, 5)}
                                   </p>
                                 </div>
                               </td>
                               <td>{data.price}</td>
+
                               <td>
-                                <div className="prdct-qty-container">
-                                  <button
-                                    className="prdct-qty-btn"
-                                    type="button"
-                                    onClick={() => increment(data)}
-                                  >
-                                    <i className="fa fa-minus">+</i>
-                                  </button>
-                                  <input
-                                    type="text"
-                                    className="qty-input-box"
-                                    value={data.quantity}
-                                    disabled
-                                    name=""
-                                    id=""
-                                  />
-                                  <button
-                                    className="prdct-qty-btn"
-                                    type="button"
-                                    onClick={() => decrement(data)}
-                                  >
-                                    <i className="fa fa-plus">-</i>
-                                  </button>
+                                <div className="prdct-qty-container   ">
+                                <div className="row ">
+                                  <div className="col">
+                                    <button
+                                      className="prdct-qty-btn  btn-sm"
+                                      type="button"
+                                      onClick={() => increment(data)}
+                                    >
+                                      <i className="fa fa-minus">+</i>
+                                    </button>
+                                  </div>
+                                  <div className="col">
+                                    <input
+                                      type="text"
+                                      className="qty-input-box "
+                                      value={data.quantity}
+                                      disabled
+                                    />
+                                  </div>
+                                  <div className="col">
+                                    <button
+                                      className="prdct-qty-btn btn-sm"
+                                      type="button"
+                                      onClick={() => decrement(data)}
+                                    >
+                                      <i className="fa fa-plus">-</i>
+                                    </button>
+                                    </div>
+                                  </div>
                                 </div>
                               </td>
-                              <td className="text-right">
-                                $ {data.quantity * data.price}
+                              <td className="text-right border">
+                                 {data.quantity * data.price}
                               </td>
                             </tr>
                           );
@@ -176,11 +183,11 @@ function Cart() {
                           <th>&nbsp;</th>
                           <th colSpan={3}>&nbsp;</th>
                           <th>
-                            Items In Cart <span className="ml-2 mr-2">:</span>
+                            Items <span className="ml-2 mr-2">:</span>
                             <span className="text-danger">{totalQty}</span>
                           </th>
                           <th className="text-right">
-                            Total Price<span className="ml-2 mr-2">:</span>
+                            Total<span className="ml-2 mr-2">:</span>
                             <span className="text-danger">
                               $ {totalPrice.toString().substring(0, 6)}
                             </span>

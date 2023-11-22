@@ -4,7 +4,7 @@ import Product from "./Product";
 function Home() {
   return (
     <div>
-      <div className="cotainer-fluid bg-light pb-5 ">
+      <div className="cotainer-fluid bg-light pb-2 ">
         <Card className=" text-white border-0 ">
           <Card.Img src="./Img/shoppy.PNG" alt="" />
           <Card.ImgOverlay className="d-flex flex-column justify-content-center">

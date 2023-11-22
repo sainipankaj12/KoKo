@@ -53,34 +53,34 @@ function Product() {
         <div className=" buttons d-flex  justify-content-center mb-5 pb-5 ">
           <Button
           className="btn-sm"
-            variant="outline-success me-2  "
+            variant="outline-warning me-2  "
             onClick={() => setFilter(data)}
           >
             All
           </Button>
           <Button
            className="btn-sm "
-            variant="outline-success me-1 me-md-2 "
+            variant="outline-warning me-1 me-md-2 "
             onClick={() => filterProduct("men's clothing")}
           >
             Men
           </Button>
           <Button className="btn-sm "
-            variant="outline-success me-1 me-md-2"
+            variant="outline-warning me-1 me-md-2"
             onClick={() => filterProduct("women's clothing")}
           >
             Women
           </Button>
           <Button
           className="btn-sm"
-            variant="outline-success me-2"
+            variant="outline-warning me-2"
             onClick={() => filterProduct("jewelery")}
           >
             Jewelery
           </Button>
           <Button
            className="btn-sm "
-            variant="outline-success me-2 "
+            variant="outline-warning me-2 "
             onClick={() => filterProduct("electronics")}
           >
             Electronics
@@ -130,8 +130,8 @@ function Product() {
     <div>
       <div className=" container-fluid bg-light ">
         <div className="row ">
-          <div className=" col-12 m-3">
-            <h1 className="display-6 fw-bolder  text-danger text-center">LATEST PRODUCTS</h1>
+          <div className=" col-12 ">
+            <h1 className="display-6 fw-bolder mb-1  text-danger text-center">LATEST PRODUCTS</h1>
             <hr />
           </div>
         </div>
