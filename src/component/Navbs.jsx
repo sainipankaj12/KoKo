@@ -32,7 +32,7 @@ function Navbs() {
                 Home
               </Nav.Link>
 
-              <Nav.Link as={Link} to="Product">
+              <Nav.Link as={Link} to="/Product">
                 Product
               </Nav.Link>
               <Nav.Link as={Link} to="About">
