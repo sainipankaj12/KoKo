@@ -131,4 +131,6 @@
 
 .cart-table td, .cart-table th {
     vertical-align: middle;
+    font-size: calc(9px + 0.390625vw);
+    
 }

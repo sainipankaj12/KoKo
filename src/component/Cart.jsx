@@ -96,17 +96,17 @@ function Cart() {
                       </tbody>
                     </table>
                   ) : (
-                    <table className="table cart-table mb-0 table-responsive-sm">
+                    <table className="table cart-table mb-0 table-responsive-sm  ">
                       <thead>
                         <tr>
-                          <th>Actn</th>
-                          <th>Prdt</th>
+                          <th>Action</th>
+                          <th>Product</th>
                           <th>Name</th>
                           <th>Price</th>
-                          <th>Qty</th>
+                          <th>Quantity</th>
                           <th className="text-right">
-                            <span id="amount" className="amount">
-                              Amnt
+                            <span id="amount" className="amount ">
+                              Amount
                             </span>
                           </th>
                         </tr>

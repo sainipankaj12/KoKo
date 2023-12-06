@@ -32,7 +32,7 @@ function Navbs() {
                 Home
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/Product"  className="text-primary fs-5 ">
+              <Nav.Link as={Link} to="/Product"  className="text-primary fs-5 text- warning-hover ">
                 Product
               </Nav.Link>
               <Nav.Link as={Link} to="About"  className="text-primary fs-5">
